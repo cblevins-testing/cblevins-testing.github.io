@@ -14,3 +14,8 @@ This is my project review. It was written on {{ page.date }} and falls under the
 ## Introduction
 
 This is the intro to **my review**.
+
+<div align="center">
+  <p><img src="/assets/img/example-screenshot.png" /></p>
+</div>
+
