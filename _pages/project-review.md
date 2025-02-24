@@ -23,7 +23,7 @@ testing video
 
 <div align="center">
   <video style="max-width:80%; height:auto; display:block; margin:0 auto;" controls>
-    <source src="1.mp4" type="video/mp4">
+    <source src="/assets/img/1.mp4" type="video/mp4">
       </video>
 </div>
 
