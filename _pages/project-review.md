@@ -19,3 +19,11 @@ This is the intro to **my review**.
     <p><img src="/assets/img/example-screenshot.png" style="width: 80%;" /></p>
 </div>
 
+testing video 
+
+<div align="center">
+  <video style="max-width:80%; height:auto; display:block; margin:0 auto;" controls>
+    <source src="1.mp4" type="video/mp4">
+      </video>
+</div>
+
