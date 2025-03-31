@@ -3,6 +3,7 @@ layout: base
 ---
 
 <!-- MathJax Scripts -->
+
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     tex2jax: {
@@ -18,16 +19,11 @@ layout: base
 
 <article class="post">
   <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <h1 class="post-title">{{ notebook.title | escape }}</h1>
   </header>
 
   <div class="post-content">
-    {% capture notebook_html %}
-      {{ content }}
-    {% endcapture %}
-
-    {% raw %}
-      {{ notebook_html }}
-    {% endraw %}
+    {% assign html_content = content | split: "</head>" | last %}
+    {{ html_content }}
   </div>
 </article>
